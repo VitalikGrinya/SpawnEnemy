@@ -1,13 +1,14 @@
 using System.Collections;
 using UnityEngine;
 
+
 public class Spawner : MonoBehaviour
 {
     [SerializeField] private SpawnPoint[] _spawnPoint;
 
     private int _minRandomValue = 1;
     private int _maxRandomValue = 4;
-    private int _spawnTime = 2;
+    private int _spawnTime = 5;
 
     private void Start()
     {

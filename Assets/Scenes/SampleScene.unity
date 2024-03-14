@@ -242,11 +242,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 07e74c32570972749b323aaf6548bce8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _spawnPoint:
-  - {fileID: 991396564}
-  - {fileID: 1399440838}
-  - {fileID: 863549572}
-  - {fileID: 1207743940}
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
@@ -385,8 +380,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 442831d4ad14d854fa99a3e73322d057, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _enemy: {fileID: -6883110752574655621, guid: 0f67909444e4884469adcfeaf7db4b82, type: 3}
-  _position: {x: -7, y: 0, z: -7}
+  _enemy: {fileID: -6883110752574655621, guid: 60e60346976d7124fac0e984a4f5a543, type: 3}
+  _spawnPoint: {fileID: 863549571}
+  _target: {fileID: 7596695255155849518, guid: d0aa23ffdb073e248baca2fff3c0c4eb, type: 3}
 --- !u!1 &963194225
 GameObject:
   m_ObjectHideFlags: 0
@@ -524,7 +520,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _enemy: {fileID: 2003464854409169181, guid: de5bf1f9324153c40b93ea1d74bff461, type: 3}
-  _position: {x: -7, y: 0, z: 7}
+  _spawnPoint: {fileID: 991396563}
+  _target: {fileID: 7596695255155849518, guid: d0aa23ffdb073e248baca2fff3c0c4eb, type: 3}
 --- !u!1 &1207743938
 GameObject:
   m_ObjectHideFlags: 0
@@ -570,7 +567,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _enemy: {fileID: -4200743991039122385, guid: 15609e24f5b4fa54a90ddc4b8d1ee4e9, type: 3}
-  _position: {x: 7, y: 0, z: -7}
+  _spawnPoint: {fileID: 1207743939}
+  _target: {fileID: 7596695255155849518, guid: d0aa23ffdb073e248baca2fff3c0c4eb, type: 3}
 --- !u!1 &1399440836
 GameObject:
   m_ObjectHideFlags: 0
@@ -615,5 +613,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 442831d4ad14d854fa99a3e73322d057, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _enemy: {fileID: 2034802476664586390, guid: d097231b7e686b944bad750a01940f47, type: 3}
-  _position: {x: 7, y: 0, z: 7}
+  _enemy: {fileID: 2034802476664586390, guid: 0f67909444e4884469adcfeaf7db4b82, type: 3}
+  _spawnPoint: {fileID: 1399440837}
+  _target: {fileID: 7596695255155849518, guid: d0aa23ffdb073e248baca2fff3c0c4eb, type: 3}
