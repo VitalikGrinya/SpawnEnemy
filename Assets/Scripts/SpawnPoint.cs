@@ -8,9 +8,8 @@ public class SpawnPoint : MonoBehaviour
 
     public void Spawn()
     {
-        var target = Instantiate(_target, _position, Quaternion.identity);
         var enemy = Instantiate(_enemy, _position, Quaternion.identity);
 
-        enemy.Init(target.transform);
+        enemy.Init(_target.transform);
     }
 }

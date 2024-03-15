@@ -8,7 +8,7 @@ public class Enemy : MonoBehaviour
 
     private void Update()
     {
-        transform.position = Vector3.Lerp(transform.position, _target.position, _speed * Time.deltaTime);
+        transform.position = Vector3.MoveTowards(transform.position, _target.position, _speed * Time.deltaTime);
     }
 
     public void Init(Transform target)

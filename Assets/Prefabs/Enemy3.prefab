@@ -12,7 +12,6 @@ GameObject:
   - component: {fileID: 8881250714898266535}
   - component: {fileID: 9002592823820037647}
   - component: {fileID: 1456755883754440309}
-  - component: {fileID: -7489082203064605510}
   - component: {fileID: -6883110752574655621}
   m_Layer: 0
   m_Name: Enemy3
@@ -107,33 +106,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!54 &-7489082203064605510
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2437154740692107842}
-  serializedVersion: 4
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_CenterOfMass: {x: 0, y: 0, z: 0}
-  m_InertiaTensor: {x: 1, y: 1, z: 1}
-  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ImplicitCom: 1
-  m_ImplicitTensor: 1
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
 --- !u!114 &-6883110752574655621
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -146,5 +118,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 28cf83173cd68de48882975396dd02f6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _target: {fileID: 2813113011334017582, guid: d0aa23ffdb073e248baca2fff3c0c4eb, type: 3}
   _speed: 2

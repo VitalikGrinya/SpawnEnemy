@@ -14,20 +14,20 @@ public class Spawner : MonoBehaviour
     {
         var waitForSeconds = new WaitForSeconds(_spawnTime);
 
-        StartCoroutine(Spawn(waitForSeconds));
+        StartCoroutine(Spawning(waitForSeconds));
     }
 
-    private IEnumerator Spawn(WaitForSeconds waitForSeconds)
+    private IEnumerator Spawning(WaitForSeconds waitForSeconds)
     {
         while(true)
         {
-            ActivateSpawnPoint();
+            Spawn();
 
             yield return waitForSeconds;
         }
     }
 
-    private void ActivateSpawnPoint()
+    private void Spawn()
     {
         int currentSpawnPoint = Random.Range(_minRandomValue, _maxRandomValue);
 
