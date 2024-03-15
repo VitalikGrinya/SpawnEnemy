@@ -6,7 +6,7 @@ public class Spawner : MonoBehaviour
 {
     [SerializeField] private SpawnPoint[] _spawnPoint;
 
-    private int _minRandomValue = 1;
+    private int _minRandomValue = 0;
     private int _maxRandomValue = 4;
     private int _spawnTime = 5;
 

@@ -10,4 +10,9 @@ public class Enemy : MonoBehaviour
     {
         transform.position = Vector3.Lerp(transform.position, _target.position, _speed * Time.deltaTime);
     }
+
+    public void Init(Transform target)
+    {
+        _target = target;
+    }
 }
